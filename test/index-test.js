@@ -48,8 +48,6 @@ describe('basic math functions', function () {
 })
 
 
-
-
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
@@ -73,3 +71,6 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+
+
+
